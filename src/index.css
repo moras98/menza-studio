@@ -1,4 +1,27 @@
 * {
   margin: 0;
   padding: 0;
+  z-index: 2;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+/* FONT SIZES */
+h1 {
+  font-size: 6vh;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 5vh;
+  font-weight: bold;
 }

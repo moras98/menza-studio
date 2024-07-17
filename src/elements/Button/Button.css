@@ -1,0 +1,34 @@
+.button {
+    border-radius: 500px;
+    border: 2px solid transparent;
+    padding: 1.5vh;
+    text-align: center;
+    transition: all ease 0.5s;
+    text-decoration: none; /* Evita subrayado en el enlace */
+    font-weight: 500;
+}
+
+.button.filled {
+    background-color: white;
+    color: #001233ff;
+    border-color: transparent;
+}
+
+.button.filled:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    transform: scale(1.1);
+}
+
+.button.outlined {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.button.outlined:hover {
+    background-color: white;
+    color: #001233ff;
+    transform: scale(1.1);
+}
