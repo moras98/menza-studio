@@ -30,13 +30,13 @@ export default function Home (){
                 </SectionContent>
             </Section>
             {/* CLIENTS SECTION */}
-            <Section>
+            <Section backgroundColor={'white'} isHalf={true}>
                 <SectionContent centered={true}>
                     <ClientsContent/>
                 </SectionContent>
             </Section>
             {/* CONTACT SECTION */}
-            <Section>
+            <Section isHalf={true}>
                 <SectionContent centered={true}>
                     <ContactContent/>
                 </SectionContent>

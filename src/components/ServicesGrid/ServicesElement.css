@@ -1,0 +1,12 @@
+.services-element {
+    display: flex;
+    width: 40vh;
+    height: 50vh;
+    border-radius: 16px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vh;
+    padding: 2vh;
+}
