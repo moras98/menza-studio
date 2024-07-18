@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router';
 import Layout from './components/Layout';
-import Home from './routes/Home';
 import { useEffect, useState } from 'react';
 import Body from './elements/Body';
+import Home from './routes/Home/Home';
 
 function App() {
   const [imagesLoaded, setImagesLoaded] = useState(false);
