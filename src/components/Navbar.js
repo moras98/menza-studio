@@ -8,7 +8,6 @@ export default function Navbar(){
         {string: 'Sobre Nosotros', path: '/'}, 
         {string: 'Servicios', path: '/'}, 
         {string: 'Contacto', path: '/'},
-        {string: 'Esp/Eng', path: '/'},
     ];
 
     const style= {

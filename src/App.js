@@ -10,7 +10,9 @@ function App() {
   useEffect(()=>{
     const preloadImages = async () => {
       const imagePromises = [
-        './assets/images/hero-section.jpg'
+        './assets/images/hero-section.jpg',
+        './assets/images/about-section.jpg',
+        './assets/images/about-content.jpg'
       ].map(src => {
         return new Promise((resolve, reject) => {
           const img = new Image();
