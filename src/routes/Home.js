@@ -5,6 +5,7 @@ import '../animations.css';
 import SectionContent from "../elements/SectionContent";
 import Section from "../elements/Section";
 import Filter from "../elements/Filter";
+import UnderlinedTitle from "../components/UnderlinedTitle";
 
 export default function Home (){
     return(
@@ -17,6 +18,8 @@ export default function Home (){
                 <AboutContent/>
             </SectionContent>
             <Filter isBlue={false}/>
+        </Section>
+        <Section>
         </Section>
         </>
     );
@@ -97,7 +100,11 @@ function AboutContent(){
             <div style={leftStyle}>
                 <div style={leftFilter}></div>
             </div>
-            <div style={rightStyle}></div>
+            <div style={rightStyle}>
+                <UnderlinedTitle>
+                    <h3>Sobre Nosotros</h3>
+                </UnderlinedTitle>
+            </div>
         </div>
     );
 }
