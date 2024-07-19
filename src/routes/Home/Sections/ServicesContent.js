@@ -1,5 +1,5 @@
 import React from "react";
-import UnderlinedTitle from "../../../components/UnderlinedTitle";
+import UnderlinedTitle from "../../../components/UnderlinedTitle/UnderlinedTitle";
 import ServicesGrid from "../../../components/ServicesGrid/ServicesGrid";
 
 export default function ServicesContent(){

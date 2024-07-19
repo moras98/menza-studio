@@ -1,0 +1,14 @@
+.underlined-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+}
+
+.underlined-title .underline {
+    display: flex;
+    width: 40%;
+    height: 3px;
+    background-color: #0466c8;
+}
