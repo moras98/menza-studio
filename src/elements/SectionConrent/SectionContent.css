@@ -1,0 +1,7 @@
+.section-content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}

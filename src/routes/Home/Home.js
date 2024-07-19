@@ -1,15 +1,15 @@
 import React from "react";
-import ParallaxSection from "../../elements/ParallaxSection";
-import SectionContent from "../../elements/SectionContent";
-import Section from "../../elements/Section";
-import Filter from "../../elements/Filter";
+import ParallaxSection from "../../elements/ParallaxSection/ParallaxSection";
+import SectionContent from "../../elements/SectionConrent/SectionContent";
+import Section from "../../elements/Section/Section";
+import Filter from "../../elements/Filter/Filter";
 import HeroContent from "./Sections/HeroContent";
 import AboutContent from "./Sections/AboutContent";
 import ServicesContent from "./Sections/ServicesContent";
 import ClientsContent from "./Sections/ClientsContent";
 import ContactContent from "./Sections/ContactContent";
 
-export default function Home (){
+export default function Home(){
     return(
         <>
             {/* HERO SECTION */}

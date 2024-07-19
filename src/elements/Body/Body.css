@@ -1,0 +1,5 @@
+.body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #001233ff, #023e7dff);
+}

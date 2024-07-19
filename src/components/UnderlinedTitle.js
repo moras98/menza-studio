@@ -22,7 +22,7 @@ function Underline() {
             display: 'flex',
             width: '50%',
             height: '3px',
-            backgroundColor: 'blue'
+            backgroundColor: '#0466c8'
         }}></div>
     );
 }
