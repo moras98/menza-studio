@@ -1,12 +1,20 @@
 .services-element {
     display: flex;
-    width: 40vh;
-    height: 50vh;
+    width: 50vh;
+    min-height: 50vh;
     border-radius: 16px;
     background-color: white;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    gap: 1vh;
+    align-items: flex-start;
+    gap: 2vh;
     padding: 2vh;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    transition: all ease 0.5s;
+    cursor: default;
+}
+
+.services-element:hover {
+    scale: 1.1;
 }

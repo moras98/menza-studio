@@ -6,8 +6,8 @@ import Filter from "../../elements/Filter/Filter";
 import HeroContent from "./Sections/HeroContent/HeroContent";
 import AboutContent from "./Sections/AboutContent/AboutContent";
 import ServicesContent from "./Sections/ServicesContent";
-import ClientsContent from "./Sections/ClientsContent";
-import ContactContent from "./Sections/ContactContent";
+import ClientsContent from "./Sections/ClientsContent/ClientsContent";
+import ContactContent from "./Sections/ContactContent/ContactContent";
 
 export default function Home(){
     return(
@@ -17,7 +17,7 @@ export default function Home(){
                 <HeroContent/>
             </ParallaxSection>
             {/* ABOUT SECTION */}
-            <Section backgroundImage={`url('./assets/images/about-section.jpg')`}>
+            <Section backgroundImage={'./assets/images/about-section.jpg'}>
                 <SectionContent centered={true}>
                     <AboutContent/>
                 </SectionContent>

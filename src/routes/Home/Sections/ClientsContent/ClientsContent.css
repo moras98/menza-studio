@@ -1,0 +1,45 @@
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    } to {
+        transform: translateX(-100%);
+    }
+}
+
+.clients-carousel {
+    margin-top: 5vh;
+    overflow: hidden;
+    width: 80vw;
+    white-space: nowrap;
+    position: relative;
+}
+
+.clients-carousel::before, .clients-carousel::after {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 5vw;
+    content: '';
+    z-index: 3;
+    white-space: nowrap;
+}
+
+.clients-carousel::before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.clients-carousel::after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.clients-slide {
+    display: inline-block;
+    animation: 20s slide infinite linear;
+}
+
+.clients-slide img { 
+    height: 20vh;
+    margin: 0 2vh;
+}

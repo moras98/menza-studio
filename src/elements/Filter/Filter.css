@@ -1,4 +1,4 @@
-.filter {
+.background-filter {
     position: absolute;
     display: flex;
     width: 100%;
@@ -7,12 +7,12 @@
     opacity: 0.8;
 }
 
-.filter.blue {
+.background-filter.blue {
     background-image: linear-gradient(to right, #001233ff, #023e7dff);
     background-color: transparent;
 }
 
-.filter.not-blue {
+.background-filter.not-blue {
     background-image: none;
     background-color: #d6d6d6ff;
 }

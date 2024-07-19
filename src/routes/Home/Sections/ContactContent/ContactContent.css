@@ -1,0 +1,20 @@
+.contact-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-content left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-content right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+}

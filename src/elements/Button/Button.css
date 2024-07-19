@@ -1,11 +1,12 @@
 .button {
     border-radius: 500px;
     border: 2px solid transparent;
-    padding: 1.5vh;
+    padding: 2vh;
     text-align: center;
     transition: all ease 0.5s;
     text-decoration: none; /* Evita subrayado en el enlace */
     font-weight: 500;
+    font-size: 2.5vh;
 }
 
 .button.filled {

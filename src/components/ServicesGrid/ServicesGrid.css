@@ -1,0 +1,10 @@
+.services-grid {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5vh;
+    align-items: center;
+    justify-content: space-between;
+}

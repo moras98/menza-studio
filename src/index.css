@@ -43,3 +43,10 @@ p {
 a {
   font-size: 1.8vh;
 }
+
+/* font styles */
+p {
+  color: #5c677dff;
+  font-weight: bold;
+  text-align: justify;
+}
