@@ -6,8 +6,8 @@ export default function Navbar(){
 
     const links = [
         {string: 'Inicio', path: '/'}, 
-        {string: 'Sobre Nosotros', path: '/'}, 
-        {string: 'Servicios', path: '/'}, 
+        {string: 'Sobre Nosotros', path: '/sobre-nosotros'}, 
+        {string: 'Servicios', path: '/servicios'}, 
         {string: 'Contacto', path: '/'},
     ];
 

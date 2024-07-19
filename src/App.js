@@ -3,6 +3,8 @@ import Layout from './components/Layout';
 import { useEffect, useState } from 'react';
 import Home from './routes/Home/Home';
 import Body from './elements/Body/Body';
+import About from './routes/About/About';
+import Services from './routes/Services/Services';
 
 function App() {
   const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -38,7 +40,8 @@ function App() {
     <Routes>
       <Route path='/' element={<Layout/>}>
         <Route index element={<Home/>}/>
-        <Route path='sobre-nosotros' element={<Home/>}/>
+        <Route path='sobre-nosotros' element={<About/>}/>
+        <Route path='servicios' element={<Services/>}/>
       </Route>
     </Routes>
   );

@@ -4,5 +4,6 @@
     flex-direction: column;
     width: 80%;
     align-items: center;
-    padding: 5vh;
+    padding: 10vh 0;
+    gap: 5vh;
 }
