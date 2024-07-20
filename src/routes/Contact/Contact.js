@@ -3,6 +3,7 @@ import './Contact.css'
 import ParallaxSection from "../../elements/ParallaxSection/ParallaxSection";
 import Section from "../../elements/Section/Section";
 import SectionContent from "../../elements/SectionConrent/SectionContent";
+import UnderlinedTitle from "../../components/UnderlinedTitle/UnderlinedTitle";
 
 export default function Contact(){
     return(
@@ -10,8 +11,40 @@ export default function Contact(){
             <ParallaxSection isHalfHeight={true} img={'./assets/images/hero-section.jpg'}>
                 <h1 style={{color: 'white'}} className="hero-content">Contacto</h1>
             </ParallaxSection>
-            <Section>
-                <SectionContent></SectionContent>
+            <Section isHalf={true}>
+                <SectionContent centered={true}>
+                    <div className="contact-section">
+                        <div className="left">
+                            <UnderlinedTitle><h3 style={{color:'white'}}>Estamos a su dispocición</h3></UnderlinedTitle>
+                        </div>
+                        <div className="right">
+                            <div className="contact-info">
+                                <img alt="email" src="/assets/icons/email.svg"/>
+                                <div className="contacts">
+                                    <p>Persona 1</p>
+                                    <p>Persona 2</p>
+                                    <p>Persona 3</p>
+                                </div>
+                            </div>
+                            <div className="contact-info">
+                                <img alt="email" src="/assets/icons/phone.svg"/>
+                                <div className="contacts">
+                                    <p>Persona 1</p>
+                                    <p>Persona 2</p>
+                                    <p>Persona 3</p>
+                                </div>
+                            </div>
+                            <div className="contact-info">
+                                <img alt="email" src="/assets/icons/linkedin.svg"/>
+                                <div className="contacts">
+                                    <p>Persona 1</p>
+                                    <p>Persona 2</p>
+                                    <p>Persona 3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </SectionContent>
             </Section>
         </>
     );

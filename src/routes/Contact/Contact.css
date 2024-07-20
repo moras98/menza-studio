@@ -1,0 +1,52 @@
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vh;
+    width: 100%;
+}
+
+.contact-section .left, .contact-section .right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0466c848;
+    padding: 2vh;
+    border-radius: 16px;
+    color: white;
+    gap: 5vh;
+    width: 50%;
+}
+
+.contact-info p {
+    color: white;
+}
+
+.contact-info img {
+    height: 4vh;
+    width: 4vh;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.contact-info .contacts p {
+    font-style: italic;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+.contact-info .contacts p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    scale: 1.1;
+}
