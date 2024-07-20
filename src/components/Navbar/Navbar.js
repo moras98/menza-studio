@@ -27,7 +27,7 @@ function NavbarLink({string, path}){
 
     return(
         <li>
-            <NavLink className={'navbar-link'} to={path}>
+            <NavLink className={'navbar-link'} to={path} onClick={()=>{window.scrollTo(0, 0);}}>
                 {string}
             </NavLink>
         </li>

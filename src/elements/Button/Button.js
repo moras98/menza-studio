@@ -7,6 +7,7 @@ export default function Button({ text, path, isFilled }) {
         <NavLink
             to={path}
             className={`button ${isFilled ? 'filled' : 'outlined'}`}
+            onClick={()=>{window.scrollTo(0, 0);}}
         >
             {text}
         </NavLink>
