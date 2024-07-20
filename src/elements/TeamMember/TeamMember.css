@@ -1,6 +1,6 @@
 .team-member {
     display: flex;
-    width: 40vh;
+    width: 25vw;
     min-height: 40vh;
     background-color: white;
     align-items: center;
@@ -30,10 +30,10 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 2vh;
-    text-align: justify;
+    /* text-align: j; */
 }
 
-.team-member .info .texts h3 {
+.team-member .info .texts h4 {
     color: #0466c8;
     text-align: start;
     width: 100%;

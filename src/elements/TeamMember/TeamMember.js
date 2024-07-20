@@ -9,7 +9,7 @@ export default function TeamMember({src, name, position, description, email, pho
             </div>
             <div className="info">
                 <div className="texts">
-                    <h3>{name}, {position}</h3>
+                    <h4>{name}, {position}</h4>
                     <p>{description}</p>
                 </div>
                 <div className="icons">
