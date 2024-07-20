@@ -1,19 +1,27 @@
 .contact-section {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-    gap: 1vh;
     width: 100%;
 }
 
-.contact-section .left, .contact-section .right {
+.contact-section .left {
     display: flex;
     flex: 1;
     flex-direction: column;
     gap: 2vh;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-section .right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .contact-info {
