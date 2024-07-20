@@ -7,7 +7,7 @@ import Section from "../../elements/Section/Section";
 export default function Services (){
     return(
         <>
-            <ParallaxSection isHalfHeight={true} img={'./assets/images/hero-section.jpg'}>
+            <ParallaxSection isHalfHeight={true} img={'/menza-studio/assets/images/hero-section.jpg'}>
                 <h1 style={{color: 'white'}} className="hero-content">Servicios</h1>
             </ParallaxSection>
             <Section backgroundColor={'white'}>

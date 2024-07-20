@@ -4,14 +4,14 @@ import UnderlinedTitle from "../../../../components/UnderlinedTitle/UnderlinedTi
 
 export default function ClientsContent(){
     const clientsArr = [
-        {name: 'cliente', src: './assets/clients/facebook.jpg'},
-        {name: 'cliente', src: './assets/clients/nativa.jpg'},
-        {name: 'cliente', src: './assets/clients/facebook.jpg'},
-        {name: 'cliente', src: './assets/clients/nativa.jpg'},
-        {name: 'cliente', src: './assets/clients/facebook.jpg'},
-        {name: 'cliente', src: './assets/clients/nativa.jpg'},
-        {name: 'cliente', src: './assets/clients/facebook.jpg'},
-        {name: 'cliente', src: './assets/clients/nativa.jpg'},
+        {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
+        {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
+        {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
+        {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
+        {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
+        {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
+        {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
+        {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
     ];
     return(
         <div>

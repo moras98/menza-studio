@@ -6,7 +6,7 @@ import './AboutContent.css';
 export default function AboutContent (){
 
     const leftStyle = {
-        backgroundImage: `url('./assets/images/about-content.jpg')`,
+        backgroundImage: `url('/menza-studio/assets/images/about-content.jpg')`,
     }
 
     return(

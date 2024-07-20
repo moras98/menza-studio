@@ -8,7 +8,7 @@ import UnderlinedTitle from "../../components/UnderlinedTitle/UnderlinedTitle";
 export default function Contact(){
     return(
         <>
-            <ParallaxSection isHalfHeight={true} img={'./assets/images/hero-section.jpg'}>
+            <ParallaxSection isHalfHeight={true} img={'/menza-studio/assets/images/hero-section.jpg'}>
                 <h1 style={{color: 'white'}} className="hero-content">Contacto</h1>
             </ParallaxSection>
             <Section isHalf={true}>
@@ -19,7 +19,7 @@ export default function Contact(){
                         </div>
                         <div className="right">
                             <div className="contact-info">
-                                <img alt="email" src="/assets/icons/email.svg"/>
+                                <img alt="email" src="/menza-studio/assets/icons/email.svg"/>
                                 <div className="contacts">
                                     <p>Persona 1</p>
                                     <p>Persona 2</p>
@@ -27,7 +27,7 @@ export default function Contact(){
                                 </div>
                             </div>
                             <div className="contact-info">
-                                <img alt="email" src="/assets/icons/phone.svg"/>
+                                <img alt="email" src="/menza-studio/assets/icons/phone.svg"/>
                                 <div className="contacts">
                                     <p>Persona 1</p>
                                     <p>Persona 2</p>
@@ -35,7 +35,7 @@ export default function Contact(){
                                 </div>
                             </div>
                             <div className="contact-info">
-                                <img alt="email" src="/assets/icons/linkedin.svg"/>
+                                <img alt="email" src="/menza-studio/assets/icons/linkedin.svg"/>
                                 <div className="contacts">
                                     <p>Persona 1</p>
                                     <p>Persona 2</p>

@@ -13,11 +13,11 @@ export default function Home(){
     return(
         <>
             {/* HERO SECTION */}
-            <ParallaxSection img={'./assets/images/hero-section.jpg'} isHalfHeight={false}>
+            <ParallaxSection img={'/menza-studio/assets/images/hero-section.jpg'} isHalfHeight={false}>
                 <HeroContent/>
             </ParallaxSection>
             {/* ABOUT SECTION */}
-            <Section backgroundImage={'./assets/images/about-section.jpg'}>
+            <Section backgroundImage={'/menza-studio/assets/images/about-section.jpg'}>
                 <SectionContent centered={true}>
                     <AboutContent/>
                 </SectionContent>
