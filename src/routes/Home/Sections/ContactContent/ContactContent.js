@@ -12,7 +12,7 @@ export default function ContactContent(){
                 </UnderlinedTitle>
             </div>
             <div className="right">
-                <Button text={'CONTÁCTENOS'} isFilled={true} path={'/contacto'}/>
+                <Button text={'CONTÁCTENOS'} isFilled={true} path={'/menza-studio/contacto'}/>
             </div>
         </div>
     );

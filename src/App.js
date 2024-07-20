@@ -13,9 +13,9 @@ function App() {
   useEffect(()=>{
     const preloadImages = async () => {
       const imagePromises = [
-        'menza-studio/assets/images/hero-section.jpg',
-        'menza-studio/assets/images/about-section.jpg',
-        'menza-studio/assets/images/about-content.jpg'
+        '/menza-studio/assets/images/hero-section.jpg',
+        '/menza-studio/assets/images/about-section.jpg',
+        '/menza-studio/assets/images/about-content.jpg'
       ].map(src => {
         return new Promise((resolve, reject) => {
           const img = new Image();
