@@ -5,10 +5,10 @@ import './Navbar.css';
 export default function Navbar(){
 
     const links = [
-        {string: 'Inicio', path: '/menza-studio/'}, 
-        {string: 'Sobre Nosotros', path: '/menza-studio/sobre-nosotros'}, 
-        {string: 'Servicios', path: '/menza-studio/servicios'}, 
-        {string: 'Contacto', path: '/menza-studio/contacto'},
+        {string: 'Inicio', path: '/'}, 
+        {string: 'Sobre Nosotros', path: '/sobre-nosotros'}, 
+        {string: 'Servicios', path: '/servicios'}, 
+        {string: 'Contacto', path: '/contacto'},
     ];
 
     return(

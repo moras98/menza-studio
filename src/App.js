@@ -39,7 +39,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path='menza-studio' element={<Layout/>}>
+      <Route path='/' element={<Layout/>}>
         <Route index element={<Home/>}/>
         <Route path='sobre-nosotros' element={<About/>}/>
         <Route path='servicios' element={<Services/>}/>
