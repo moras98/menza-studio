@@ -5,9 +5,9 @@
     <title>Page Not Found</title>
     <meta http-equiv="refresh" content="0; URL=/#/404">
     <script type="text/javascript">
-      var path = window.location.pathname.split('/').pop();
+      var path = window.location.pathname.split('/').slice(1).join('/');
       if (path !== '') {
-        window.location.href = '/menza-studio/#' + window.location.pathname;
+        window.location.href = '/menza-studio/#/' + path;
       }
     </script>
   </head>
