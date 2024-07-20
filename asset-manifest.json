@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/menza-studio/static/css/main.a5a0dee2.css",
-    "main.js": "/menza-studio/static/js/main.a98e1e0b.js",
+    "main.js": "/menza-studio/static/js/main.c70d02a9.js",
     "static/js/453.efd77ed6.chunk.js": "/menza-studio/static/js/453.efd77ed6.chunk.js",
     "index.html": "/menza-studio/index.html",
     "main.a5a0dee2.css.map": "/menza-studio/static/css/main.a5a0dee2.css.map",
-    "main.a98e1e0b.js.map": "/menza-studio/static/js/main.a98e1e0b.js.map",
+    "main.c70d02a9.js.map": "/menza-studio/static/js/main.c70d02a9.js.map",
     "453.efd77ed6.chunk.js.map": "/menza-studio/static/js/453.efd77ed6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5a0dee2.css",
-    "static/js/main.a98e1e0b.js"
+    "static/js/main.c70d02a9.js"
   ]
 }
