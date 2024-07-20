@@ -13,9 +13,9 @@ export default function TeamMember({src, name, position, description, email, pho
                     <p>{description}</p>
                 </div>
                 <div className="icons">
-                    <img alt="email" src="menza-studio/assets/icons/email.svg"/>
-                    <img alt="phone" src="menza-studio/assets/icons/phone.svg"/>
-                    <img alt="linkedin" src="menza-studio/assets/icons/linkedin.svg"/>
+                    <img alt="email" src="/menza-studio/assets/icons/email.svg"/>
+                    <img alt="phone" src="/menza-studio/assets/icons/phone.svg"/>
+                    <img alt="linkedin" src="/menza-studio/assets/icons/linkedin.svg"/>
                 </div>
             </div>
         </div>
