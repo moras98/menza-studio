@@ -38,6 +38,7 @@ h4 {
 
 p {
   font-size: 2vh;
+  line-height: 3vh;
 }
 
 a {
@@ -47,6 +48,6 @@ a {
 /* font styles */
 p {
   color: #5c677dff;
-  font-weight: bold;
+  font-weight: 400;
   text-align: justify;
 }

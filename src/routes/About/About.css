@@ -16,3 +16,9 @@
     display: flex;
     flex: 0.7;
 }
+
+.team {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}

@@ -8,7 +8,7 @@ export default function Navbar(){
         {string: 'Inicio', path: '/'}, 
         {string: 'Sobre Nosotros', path: '/sobre-nosotros'}, 
         {string: 'Servicios', path: '/servicios'}, 
-        {string: 'Contacto', path: '/'},
+        {string: 'Contacto', path: '/contacto'},
     ];
 
     return(

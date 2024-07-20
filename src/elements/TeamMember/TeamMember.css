@@ -1,0 +1,59 @@
+.team-member {
+    display: flex;
+    width: 40vh;
+    min-height: 40vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vh;
+    border-radius: 16px;
+    gap: 1vh;
+}
+
+.team-member .picture {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.team-member .picture img {
+    height: 100%;
+    width: auto;
+    filter: grayscale(1);
+}
+
+.team-member .info .texts {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2vh;
+    text-align: justify;
+}
+
+.team-member .info .texts h3 {
+    color: #0466c8;
+    text-align: start;
+    width: 100%;
+}
+
+.team-member .info .icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-member .info .icons img {
+    height: 3vh;
+    width: 3vh;
+    filter: invert(23%) sepia(100%) saturate(2100%) hue-rotate(198deg) brightness(93%) contrast(97%);
+    transition: all ease 0.5s;
+}
+
+.team-member .info .icons img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}

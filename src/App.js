@@ -5,6 +5,7 @@ import Home from './routes/Home/Home';
 import Body from './elements/Body/Body';
 import About from './routes/About/About';
 import Services from './routes/Services/Services';
+import Contact from './routes/Contact/Contact';
 
 function App() {
   const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -42,6 +43,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path='sobre-nosotros' element={<About/>}/>
         <Route path='servicios' element={<Services/>}/>
+        <Route path='contacto' element={<Contact/>}/>
       </Route>
     </Routes>
   );

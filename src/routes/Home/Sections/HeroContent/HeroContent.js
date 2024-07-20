@@ -8,7 +8,7 @@ export default function HeroContent(){
             <h1 style={{color:'white'}}>TEXTO DE EJEMPLO 1</h1>
             <h2 style={{color: "#979dacff"}}>TEXTO DE EJEMPLO 2</h2>
             <div className="buttons-div">
-                <Button text={'CONTACTO'} path={'/'} isFilled={true}/>
+                <Button text={'CONTACTO'} path={'/contacto'} isFilled={true}/>
                 <Button text={'SABER MÁS'} path={'/sobre-nosotros'} isFilled={false}/>
             </div>
         </div>
