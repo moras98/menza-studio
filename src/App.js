@@ -9,11 +9,17 @@ import Contact from './routes/Contact/Contact';
 import LoadingSpinner from './elements/LoadingSpinner/LoadingSpinner';
 import Section from './elements/Section/Section';
 import SectionContent from './elements/SectionConrent/SectionContent';
+import { BrowserRouter } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import routes from './routes/routes';
 
 function App() {
   const [imagesLoaded, setImagesLoaded] = useState(false);
+  const { i18n } = useTranslation('routes');
+  const currentLanguage = i18n.language || 'es';
+  const currentRoutes = routes[currentLanguage];
 
-  useEffect(()=>{
+  useEffect(() => {
     const preloadImages = async () => {
       const imagePromises = [
         '/menza-studio/assets/images/hero-section.jpg',
@@ -37,24 +43,28 @@ function App() {
   }, []);
 
   if (!imagesLoaded) {
-    return <Body>
-      <Section isHalf={false}>
-        <SectionContent centered={true}>
-          <LoadingSpinner/>
-        </SectionContent>
-      </Section>
-    </Body>;
+    return (
+      <Body>
+        <Section isHalf={false}>
+          <SectionContent centered={true}>
+            <LoadingSpinner/>
+          </SectionContent>
+        </Section>
+      </Body>
+    );
   }
 
   return (
-    <Routes>
-      <Route path='/' element={<Layout/>}>
-        <Route index element={<Home/>}/>
-        <Route path='sobre-nosotros' element={<About/>}/>
-        <Route path='servicios' element={<Services/>}/>
-        <Route path='contacto' element={<Contact/>}/>
-      </Route>
-    </Routes>
+    <BrowserRouter basename='/menza-studio'>
+      <Routes>
+        <Route path={currentRoutes.home} element={<Layout/>}>
+          <Route index element={<Home/>}/>
+          <Route path={currentRoutes.about} element={<About/>}/>
+          <Route path={currentRoutes.services} element={<Services/>}/>
+          <Route path={currentRoutes.contact} element={<Contact/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
