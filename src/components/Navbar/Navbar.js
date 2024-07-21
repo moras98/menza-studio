@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Navbar.css';
+import LanguageSelector from "../Footer/LanguageSelector/LanguageSelector";
 
 export default function Navbar(){
 
@@ -39,6 +40,7 @@ function NavbarLinksList({links}){
     return(
         <ul className="navbar-links-list">
             {links.map((e, index)=> <NavbarLink key={index} string={e.string} path={e.path}/>)}
+            <LanguageSelector/>
         </ul>
     );
 }

@@ -1,0 +1,17 @@
+.language-selector .language-flag {
+    width: 1.5vw;
+    height: auto;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    margin-left: 1.5vw;
+    transition: all ease 0.5s;
+}
+
+.language-selector .language-flag.selected-lg{
+    border-bottom: 0.5vh solid white;
+}
+
+.language-selector .language-flag:hover{
+    /* transform: scale(1.1); */
+    border-bottom: 3px solid white;
+}
