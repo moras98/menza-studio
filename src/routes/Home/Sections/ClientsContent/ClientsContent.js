@@ -1,8 +1,11 @@
 import React from "react";
 import './ClientsContent.css';
 import UnderlinedTitle from "../../../../components/UnderlinedTitle/UnderlinedTitle";
+import { useTranslation } from "react-i18next";
 
 export default function ClientsContent(){
+    const {t} = useTranslation('home');
+
     const clientsArr = [
         {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
         {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
@@ -16,7 +19,7 @@ export default function ClientsContent(){
     return(
         <div>
             <UnderlinedTitle>
-                <h3>Clientes</h3>
+                <h3>{t('clients_title')}</h3>
             </UnderlinedTitle>
             <div className="clients-carousel">
                 <div className="clients-slide">
