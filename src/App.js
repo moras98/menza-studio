@@ -14,13 +14,13 @@ import { useTranslation } from 'react-i18next';
 import routes from './routes/routes';
 
 function App() {
-  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [ready, setReady] = useState(false);
   const { i18n } = useTranslation('routes');
   const currentLanguage = i18n.language || 'es';
   const currentRoutes = routes[currentLanguage];
 
   useEffect(() => {
-    const preloadImages = async () => {
+    const preloadAssets = async () => {
       const imagePromises = [
         '/menza-studio/assets/images/hero-section.jpg',
         '/menza-studio/assets/images/about-section.jpg',
@@ -34,20 +34,28 @@ function App() {
         });
       });
 
-      await Promise.all(imagePromises);
+      try {
+        // Espera a que todas las imágenes se carguen
+        await Promise.all(imagePromises);
 
-      setImagesLoaded(true);
+        // Carga los namespaces de i18n
+        await i18n.loadNamespaces(['home', 'about', 'services', 'contact']);
+
+        setReady(true);
+      } catch (error) {
+        console.error("Error loading assets or namespaces", error);
+      }
     };
 
-    preloadImages();
-  }, []);
+    preloadAssets();
+  }, [i18n]);
 
-  if (!imagesLoaded && !i18n.isInitialized) {
+  if (!ready) {
     return (
       <Body>
         <Section isHalf={false}>
           <SectionContent centered={true}>
-            <LoadingSpinner/>
+            <LoadingSpinner />
           </SectionContent>
         </Section>
       </Body>
@@ -57,11 +65,11 @@ function App() {
   return (
     <BrowserRouter basename='/menza-studio'>
       <Routes>
-        <Route path={currentRoutes.home} element={<Layout/>}>
-          <Route index element={<Home/>}/>
-          <Route path={currentRoutes.about} element={<About/>}/>
-          <Route path={currentRoutes.services} element={<Services/>}/>
-          <Route path={currentRoutes.contact} element={<Contact/>}/>
+        <Route path={currentRoutes.home} element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path={currentRoutes.about} element={<About />} />
+          <Route path={currentRoutes.services} element={<Services />} />
+          <Route path={currentRoutes.contact} element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
