@@ -10,6 +10,7 @@ i18n
     lng: 'es', // Idioma por defecto
     backend: {
       loadPath: 'menza-studio/locales/{{lng}}/{{ns}}.json'
+      // loadPath: 'locales/{{lng}}/{{ns}}.json'
     },
     ns: ['home', 'about', 'services', 'contact'],
     defaultNS: 'home',
