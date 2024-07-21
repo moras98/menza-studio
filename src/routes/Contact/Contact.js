@@ -4,18 +4,20 @@ import ParallaxSection from "../../elements/ParallaxSection/ParallaxSection";
 import Section from "../../elements/Section/Section";
 import SectionContent from "../../elements/SectionConrent/SectionContent";
 import UnderlinedTitle from "../../components/UnderlinedTitle/UnderlinedTitle";
+import { useTranslation } from "react-i18next";
 
 export default function Contact(){
+    const {t} = useTranslation('contact');
     return(
         <>
             <ParallaxSection isHalfHeight={true} img={'/menza-studio/assets/images/hero-section.jpg'}>
-                <h1 style={{color: 'white'}} className="hero-content">Contacto</h1>
+                <h1 style={{color: 'white'}} className="hero-content">{t('title')}</h1>
             </ParallaxSection>
             <Section isHalf={true}>
                 <SectionContent centered={true}>
                     <div className="contact-section">
                         <div className="left">
-                            <UnderlinedTitle><h3 style={{color:'white'}}>Estamos a su dispocición</h3></UnderlinedTitle>
+                            <UnderlinedTitle><h3 style={{color:'white'}}>{t('subtitle')}</h3></UnderlinedTitle>
                         </div>
                         <div className="right">
                             <div className="contact-info">

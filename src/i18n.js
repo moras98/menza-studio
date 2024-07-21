@@ -11,7 +11,7 @@ i18n
     backend: {
       loadPath: 'menza-studio/locales/{{lng}}/{{ns}}.json'
     },
-    ns: ['home'],
+    ns: ['home', 'about', 'services', 'contact'],
     defaultNS: 'home',
     interpolation: {
       escapeValue: false
