@@ -6,6 +6,9 @@ import Body from './elements/Body/Body';
 import About from './routes/About/About';
 import Services from './routes/Services/Services';
 import Contact from './routes/Contact/Contact';
+import LoadingSpinner from './elements/LoadingSpinner/LoadingSpinner';
+import Section from './elements/Section/Section';
+import SectionContent from './elements/SectionConrent/SectionContent';
 
 function App() {
   const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -34,7 +37,13 @@ function App() {
   }, []);
 
   if (!imagesLoaded) {
-    return <Body></Body>;
+    return <Body>
+      <Section isHalf={false}>
+        <SectionContent centered={true}>
+          <LoadingSpinner/>
+        </SectionContent>
+      </Section>
+    </Body>;
   }
 
   return (
