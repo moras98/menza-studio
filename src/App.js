@@ -42,7 +42,7 @@ function App() {
     preloadImages();
   }, []);
 
-  if (!imagesLoaded) {
+  if (!imagesLoaded && !i18n.isInitialized) {
     return (
       <Body>
         <Section isHalf={false}>

@@ -9,10 +9,10 @@ i18n
     fallbackLng: 'es',
     lng: 'es', // Idioma por defecto
     backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json'
+      loadPath: 'menza-studio/locales/{{lng}}/{{ns}}.json'
     },
-    ns: ['routes'],
-    defaultNS: 'routes',
+    ns: ['home'],
+    defaultNS: 'home',
     interpolation: {
       escapeValue: false
     }
