@@ -40,7 +40,7 @@
     margin: 0;
 }
 
-.navbar-link:hover, .navbar-link.active{
+.navbar-link:hover{
     color: #001233ff;
     background-color: white;
     transform: scale(1.1);

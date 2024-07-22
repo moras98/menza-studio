@@ -35,11 +35,7 @@ function NavbarLink({label, path}){
 
     return(
         <li>
-            <NavLink  
-                className={({ isActive }) => isActive ? 'navbar-link active' : 'navbar-link'}
-                to={path} 
-                onClick={()=>{window.scrollTo(0, 0);}}
-            >
+            <NavLink className={'navbar-link'} to={path} onClick={()=>{window.scrollTo(0, 0);}}>
                 {label}
             </NavLink>
         </li>
