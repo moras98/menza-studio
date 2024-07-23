@@ -1,6 +1,6 @@
 .team-member {
     display: flex;
-    width: 25vw;
+    max-width: 25vw;
     min-height: 40vh;
     background-color: white;
     align-items: center;
@@ -9,6 +9,7 @@
     padding: 2vh;
     border-radius: 16px;
     gap: 1vh;
+    transition: all ease 0.5s;
 }
 
 .team-member .picture {
@@ -56,4 +57,9 @@
 .team-member .info .icons img:hover {
     cursor: pointer;
     transform: scale(1.5);
+}
+
+.team-member:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }

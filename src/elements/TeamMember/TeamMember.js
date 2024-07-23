@@ -23,14 +23,15 @@ export default function TeamMember({member}){
                 </div>
                 <div className="info">
                     <div className="texts">
-                        <h4>{member.name}, {member.position}</h4>
-                        <p>{member.description}</p>
+                        <h4>{member.name}</h4>
+                        <h5 style={{color:'gray', fontWeight:'300'}}>{member.position}</h5>
+                        {/* <p>{member.description}</p> */}
                     </div>
-                    <div className="icons">
+                    {/* <div className="icons">
                         <img alt="email" src="/menza-studio/assets/icons/email.svg"/>
                         <img alt="phone" src="/menza-studio/assets/icons/phone.svg"/>
                         <img alt="linkedin" src="/menza-studio/assets/icons/linkedin.svg"/>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <Modal isOpen={isModalOpen} onClose={closeModal}>
