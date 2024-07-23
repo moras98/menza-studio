@@ -6,9 +6,12 @@ import UnderlinedTitle from "../../components/UnderlinedTitle/UnderlinedTitle";
 import Section from "../../elements/Section/Section";
 import TeamMember from "../../elements/TeamMember/TeamMember";
 import { useTranslation } from "react-i18next";
+import { members } from "./team-members";
 
 export default function About (){
-    const {t} = useTranslation('about');
+    const {t, i18n} = useTranslation('about');
+    const currentLanguage = i18n.language;
+    const currentMembers = members[currentLanguage]
 
     return(
         <>
@@ -54,8 +57,7 @@ export default function About (){
                     <UnderlinedTitle><h3 style={{color: 'white'}}>{t('subtitle4')}</h3></UnderlinedTitle>
                     <p style={{color:'white', textAlign: 'center'}}>{t('text4')}</p>
                     <div className="team">
-                        <TeamMember src={'/menza-studio/assets/images/donald_sims.png'} name={'Nombre Apellido'} position={'Profesión'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum nibh ut risus luctus pellentesque.'} email={''} phone={''} linkedin={'https://www.linkedin.com'}/>
-                        <TeamMember src={'/menza-studio/assets/images/donald_sims.png'} name={'Nombre Apellido'} position={'Profesión'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum nibh ut risus luctus pellentesque.'} email={''} phone={''} linkedin={'https://www.linkedin.com'}/>
+                        {currentMembers.map((e, idx)=><TeamMember key={idx} member={e}/>)}
                     </div>
                 </SectionContent>
             </Section>

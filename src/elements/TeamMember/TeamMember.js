@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import './TeamMember.css';
 import Modal from "../Modal/Modal";
+import TeamMemberCV from "../../components/TeamMemberCV/TeamMemberCV";
 
-export default function TeamMember({src, name, position, description, email, phone, linkedin}){
+export default function TeamMember({member}){
 
     const [isModalOpen, setModalOpen] = useState(false);
 
@@ -18,12 +19,12 @@ export default function TeamMember({src, name, position, description, email, pho
         <>
             <div className="team-member" onClick={openModal}>
                 <div className="picture">
-                    <img alt={name} src={src}/>
+                    <img alt={member.name} src={member.src}/>
                 </div>
                 <div className="info">
                     <div className="texts">
-                        <h4>{name}, {position}</h4>
-                        <p>{description}</p>
+                        <h4>{member.name}, {member.position}</h4>
+                        <p>{member.description}</p>
                     </div>
                     <div className="icons">
                         <img alt="email" src="/menza-studio/assets/icons/email.svg"/>
@@ -33,7 +34,7 @@ export default function TeamMember({src, name, position, description, email, pho
                 </div>
             </div>
             <Modal isOpen={isModalOpen} onClose={closeModal}>
-                
+                <TeamMemberCV teamMember={member}/>
             </Modal>
         </>
     );
