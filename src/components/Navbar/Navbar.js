@@ -22,8 +22,8 @@ export default function Navbar(){
     return(
         <div className="navbar">
             <div className="navbar-elements">
-                <div>
-                    <NavLink >LOGO</NavLink>
+                <div className="logo-container">
+                    <NavLink to={currentRoutes.home}><img src="/menza-studio/assets/images/logo-blanco.png" alt="logo"/></NavLink>
                 </div>
                 <NavbarLinksList links={links}/>
             </div>

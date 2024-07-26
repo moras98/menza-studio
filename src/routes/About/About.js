@@ -18,7 +18,7 @@ export default function About (){
             <ParallaxSection isHalfHeight={true} img={'/menza-studio/assets/images/hero-section.jpg'}>
                 <h1 style={{color: 'white'}} className="hero-content">{t('title')}</h1>
             </ParallaxSection>
-            <Section backgroundColor={'white'}>
+            <Section backgroundColor={'white'} isHalf={true}>
                 <SectionContent>
                     <div className="about-information">
                         <div className="left">

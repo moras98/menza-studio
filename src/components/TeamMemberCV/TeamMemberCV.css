@@ -75,3 +75,14 @@
     color: #0466c8;
     font-weight: 400;
 }
+
+.curriculum-link {
+    font-style: italic;
+    font-weight: 200;
+    color: #0466c8;
+}
+
+.curriculum-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
