@@ -19,7 +19,7 @@
 @media (max-width: 850px){
     .language-selector .language-flag {
         margin-left: 0;
-        width: 15px;
+        width: 4vw;
     }
 
     .language-selector {

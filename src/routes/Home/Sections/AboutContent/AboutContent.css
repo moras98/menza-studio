@@ -34,3 +34,9 @@
     width: 100%;
     opacity: 0.8;
 }
+
+@media (max-width: 850px){
+    .about-content .left {
+        display: none;
+    }
+}

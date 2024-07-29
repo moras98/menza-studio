@@ -4,3 +4,12 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media (max-width: 850px){
+    .contact-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+    }
+}

@@ -64,3 +64,13 @@
     scale: 1.2;
     cursor: pointer;
 }
+
+@media (max-width: 850px){
+    .contact-section{
+        flex-direction: column;
+        gap: 4vh;
+    }
+    .contact-info {
+        width: 100%;
+    }   
+}

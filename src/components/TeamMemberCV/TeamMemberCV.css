@@ -86,3 +86,26 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media (max-width: 850px){
+    .team-member-cv {
+        flex-direction: column;
+        gap: 5vh;
+    }
+    
+    .team-member-cv .left .img-container {
+        height: 20vh;
+    }
+
+    .team-member-cv .left .img-container img {
+        height: 100%;
+    }
+
+    .team-member-cv .left {
+        width: 100%;
+    }
+    
+    .team-member-cv .right {
+        width: 100%;
+    }
+}
