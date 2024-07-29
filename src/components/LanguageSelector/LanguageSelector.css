@@ -15,3 +15,18 @@
     /* transform: scale(1.1); */
     border-bottom: 3px solid white;
 }
+
+@media (max-width: 850px){
+    .language-selector .language-flag {
+        margin-left: 0;
+        width: 15px;
+    }
+
+    .language-selector {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
