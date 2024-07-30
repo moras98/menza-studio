@@ -6,16 +6,28 @@ import { useTranslation } from "react-i18next";
 export default function ClientsContent(){
     const {t} = useTranslation('home');
 
+    // const clientsArr = [
+    //     {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
+    //     {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
+    //     {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
+    //     {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
+    //     {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
+    //     {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
+    //     {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
+    //     {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
+    // ];
+
     const clientsArr = [
-        {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
-        {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
-        {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
-        {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
-        {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
-        {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
-        {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
-        {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
+        {name: 'argencons', src: '/menza-studio/assets/clients/argencons.png'},
+        {name: 'grapheno', src: '/menza-studio/assets/clients/grapheno.png'},
+        {name: 'la-tahona', src: '/menza-studio/assets/clients/la-tahona.png'},
+        {name: 'plantesia', src: '/menza-studio/assets/clients/plantesia.png'},
+        {name: 'argencons', src: '/menza-studio/assets/clients/argencons.png'},
+        {name: 'grapheno', src: '/menza-studio/assets/clients/grapheno.png'},
+        {name: 'la-tahona', src: '/menza-studio/assets/clients/la-tahona.png'},
+        {name: 'plantesia', src: '/menza-studio/assets/clients/plantesia.png'},
     ];
+
     return(
         <div>
             <UnderlinedTitle>
