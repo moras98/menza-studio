@@ -1,14 +1,14 @@
 .services-element {
     display: flex;
     width: 50vh;
-    min-height: 50vh;
+    height: 20vh;
     border-radius: 16px;
     background-color: white;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     gap: 2vh;
-    padding: 2vh;
+    padding: 4vh;
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
     transition: all ease 0.5s;
