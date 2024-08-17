@@ -21,33 +21,33 @@ export default function About (){
             <Section backgroundColor={'white'} isHalf={true}>
                 <SectionContent>
                     <div className="about-information">
-                        <div className="left">
+                        {/* <div className="left">
                             <UnderlinedTitle>
                                 <h3>{t('subtitle1')}</h3>
                             </UnderlinedTitle>
-                        </div>
+                        </div> */}
                         <div className="right">
-                            <p>{t('text1')}</p>
+                            <p style={{textAlign: 'center'}}>{t('text1')}</p>
                         </div>
                     </div>
                     <div className="about-information">
-                        <div className="left">
+                        {/* <div className="left">
                             <UnderlinedTitle>
                                 <h3>{t('subtitle2')}</h3>
                             </UnderlinedTitle>
-                        </div>
+                        </div> */}
                         <div className="right">
-                            <p>{t('text2')}</p>
+                            <p style={{textAlign: 'center'}}>{t('text2')}</p>
                         </div>
                     </div>
                     <div className="about-information">
-                        <div className="left">
+                        {/* <div className="left">
                             <UnderlinedTitle>
                                 <h3>{t('subtitle3')}</h3>
                             </UnderlinedTitle>
-                        </div>
+                        </div> */}
                         <div className="right">
-                            <p>{t('text3')}</p>
+                            <p style={{textAlign: 'center'}}>{t('text3')}</p>
                         </div>
                     </div>
                 </SectionContent>
@@ -55,7 +55,7 @@ export default function About (){
             <Section isHalf={true}>
                 <SectionContent centered={true}>
                     <UnderlinedTitle><h3 style={{color: 'white'}}>{t('subtitle4')}</h3></UnderlinedTitle>
-                    <p style={{color:'white', textAlign: 'center'}}>{t('text4')}</p>
+                    {/* <p style={{color:'white', textAlign: 'center'}}>{t('text4')}</p> */}
                     <div className="team">
                         {currentMembers.map((e, idx)=><TeamMember key={idx} member={e}/>)}
                     </div>
