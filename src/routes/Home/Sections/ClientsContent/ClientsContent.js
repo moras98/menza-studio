@@ -26,6 +26,8 @@ export default function ClientsContent(){
         {name: 'grapheno', src: '/menza-studio/assets/clients/grapheno.png'},
         {name: 'la-tahona', src: '/menza-studio/assets/clients/la-tahona.png'},
         {name: 'plantesia', src: '/menza-studio/assets/clients/plantesia.png'},
+        {name: 'vladimir', src: '/menza-studio/assets/clients/vladimir.png'},
+        {name: 'renmax', src: '/menza-studio/assets/clients/renmax.png'},
     ];
 
     return(
