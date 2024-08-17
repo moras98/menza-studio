@@ -8,7 +8,7 @@ export default function ServicesElement({ title, text, path }) {
   return (
     <div className="services-element">
       <h4>{title.toUpperCase()}</h4>
-      {/* <p>{text}</p> */}
+      <p>{text}</p>
       <ItalicButton path={path} string={t("about_btn")} />
     </div>
   );
