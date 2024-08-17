@@ -13,6 +13,7 @@
     box-sizing: border-box;
     transition: all ease 0.5s;
     cursor: default;
+    border: 0.5vh solid #0466c8;
 }
 
 .services-element:hover {

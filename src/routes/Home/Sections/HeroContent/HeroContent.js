@@ -11,7 +11,7 @@ export default function HeroContent(){
         <div className="hero-content">
             {/* <h1 style={{color:'white'}}>{t('title')}</h1>
             <h2 style={{color: "#979dacff"}}>{t('subtitle')}</h2> */}
-            <img src="/menza-studio/assets/images/logo-blanco-completo.png"/>
+            <img src="/menza-studio/assets/images/logo-blanco-completo.png" alt="logo sequeira menza"/>
             <div className="buttons-div">
                 <Button text={t('hero_contact')} path={currentLanguage === 'es' ? '/contacto' : '/contact'} isFilled={true}/>
                 <Button text={t('hero_learn_more')} path={currentLanguage === 'es' ? '/sobre-nosotros' : '/about-us'} isFilled={false}/>
