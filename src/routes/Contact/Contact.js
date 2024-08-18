@@ -22,31 +22,31 @@ export default function Contact(){
                         <div className="right">
                             <div className="contact-info">
                                 <div className="contacts">
-                                    <p>Persona 1</p>
+                                    <p>Email</p>
                                 </div>
                                 <div className="contacts">
                                     <img alt="email" src="/menza-studio/assets/icons/email.svg"/>
-                                    <img alt="email" src="/menza-studio/assets/icons/phone.svg"/>
-                                    <img alt="email" src="/menza-studio/assets/icons/linkedin.svg"/>
+                                    {/* <img alt="email" src="/menza-studio/assets/icons/phone.svg"/> */}
+                                    {/* <img alt="email" src="/menza-studio/assets/icons/linkedin.svg"/> */}
                                 </div>  
                             </div>
                             <div className="contact-info">
                                 <div className="contacts">
-                                    <p>Persona 2</p>
+                                    <p>Teléfono</p>
                                 </div>
                                 <div className="contacts">
-                                    <img alt="email" src="/menza-studio/assets/icons/email.svg"/>
+                                    {/* <img alt="email" src="/menza-studio/assets/icons/email.svg"/> */}
                                     <img alt="email" src="/menza-studio/assets/icons/phone.svg"/>
-                                    <img alt="email" src="/menza-studio/assets/icons/linkedin.svg"/>
+                                    {/* <img alt="email" src="/menza-studio/assets/icons/linkedin.svg"/> */}
                                 </div>  
                             </div>
                             <div className="contact-info">
                                 <div className="contacts">
-                                    <p>Persona 3</p>
+                                    <p>LinkedIn</p>
                                 </div>
                                 <div className="contacts">
-                                    <img alt="email" src="/menza-studio/assets/icons/email.svg"/>
-                                    <img alt="email" src="/menza-studio/assets/icons/phone.svg"/>
+                                    {/* <img alt="email" src="/menza-studio/assets/icons/email.svg"/> */}
+                                    {/* <img alt="email" src="/menza-studio/assets/icons/phone.svg"/> */}
                                     <img alt="email" src="/menza-studio/assets/icons/linkedin.svg"/>
                                 </div>  
                             </div>
