@@ -7,7 +7,7 @@ export default function ServicesElement({ title, text, path }) {
   const { t } = useTranslation("home");
   return (
     <div className="services-element">
-      <h4>{title.toUpperCase()}</h4>
+      <h4 style={{fontStyle: 'italic'}}>{title.toUpperCase()}</h4>
       <p>{text}</p>
       <ItalicButton path={path} string={t("about_btn")} />
     </div>
