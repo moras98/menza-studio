@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import './TeamMember.css';
+// import './TeamMember.css';
+import './TeamMember2.css';
 import Modal from "../Modal/Modal";
 import TeamMemberCV from "../../components/TeamMemberCV/TeamMemberCV";
 
@@ -25,13 +26,7 @@ export default function TeamMember({member}){
                     <div className="texts">
                         <h4>{member.name}</h4>
                         <h5 style={{color:'gray', fontWeight:'300'}}>{member.position}</h5>
-                        {/* <p>{member.description}</p> */}
                     </div>
-                    {/* <div className="icons">
-                        <img alt="email" src="/menza-studio/assets/icons/email.svg"/>
-                        <img alt="phone" src="/menza-studio/assets/icons/phone.svg"/>
-                        <img alt="linkedin" src="/menza-studio/assets/icons/linkedin.svg"/>
-                    </div> */}
                 </div>
             </div>
             <Modal isOpen={isModalOpen} onClose={closeModal}>

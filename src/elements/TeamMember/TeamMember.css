@@ -19,12 +19,14 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    overflow: hidden;
 }
 
 .team-member .picture img {
     height: 100%;
     width: auto;
-    filter: grayscale(1);
+    overflow: hidden;
+    /* filter: grayscale(1); */
 }
 
 .team-member .info .texts {
