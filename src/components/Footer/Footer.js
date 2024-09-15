@@ -29,6 +29,17 @@ export default function Footer(){
         { label: currentServices[5].name, path: `${currentRoutes.services}#6`},
     ];
 
+    const copyToClipboard = (text) => {
+        navigator.clipboard.writeText(text)
+            .then(() => {
+                // Optional: show a message to indicate that the text has been copied
+                currentLanguage === 'es' ? alert('Teléfono copiado!') : alert('Phone copied!');
+            })
+            .catch((err) => {
+                console.error('Error al copiar al portapapeles: ', err);
+            });
+    };
+
 
     const changeLanguage = (lng) => {
         const currentPath = window.location.pathname;
@@ -65,9 +76,9 @@ export default function Footer(){
                     <NavLink className="footer-link" onClick={() => changeLanguage('en')}>ENG</NavLink>
                 </div>
                 <div className="footer-column">
-                    <img alt="email" src="/menza-studio/assets/icons/email.svg"/>
-                    <img alt="email" src="/menza-studio/assets/icons/phone.svg"/>
-                    <img alt="email" src="/menza-studio/assets/icons/linkedin.svg"/>
+                    <img alt="email" src="/menza-studio/assets/icons/email.svg" onClick={()=>window.location.href = 'mailto:example@example.com'}/>
+                    <img alt="email" src="/menza-studio/assets/icons/phone.svg" onClick={() => copyToClipboard('+1234567890')}/>
+                    <img alt="email" src="/menza-studio/assets/icons/linkedin.svg" onClick={()=> window.open('https://www.linkedin.com/company/sequeira-menza-abogados?trk=public_profile_topcard-current-company', '_blank')}/>
                 </div>
             </div>
         </div>
