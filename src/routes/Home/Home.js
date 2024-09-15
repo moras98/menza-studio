@@ -17,7 +17,7 @@ export default function Home(){
                 <HeroContent/>
             </ParallaxSection>
             {/* ABOUT SECTION */}
-            <Section backgroundImage={'/menza-studio/assets/images/about-section.jpg'}>
+            <Section backgroundImage={'/menza-studio/assets/images/about-content.jpg'}>
                 <SectionContent centered={true}>
                     <AboutContent/>
                 </SectionContent>
