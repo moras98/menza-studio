@@ -27,7 +27,7 @@ export default function About (){
                             </UnderlinedTitle>
                         </div> */}
                         <div className="right">
-                            <p style={{textAlign: 'center'}}>{t('text1')}</p>
+                            <h5 style={{textAlign: 'center', fontWeight: 400, color: '#5c677dff'}}>{t('text1')}</h5>
                         </div>
                     </div>
                     <div className="about-information">
@@ -37,7 +37,7 @@ export default function About (){
                             </UnderlinedTitle>
                         </div> */}
                         <div className="right">
-                            <p style={{textAlign: 'center'}}>{t('text2')}</p>
+                            <h5 style={{textAlign: 'center', fontWeight: 400, color: '#5c677dff'}}>{t('text2')}</h5>
                         </div>
                     </div>
                     <div className="about-information">
@@ -47,7 +47,7 @@ export default function About (){
                             </UnderlinedTitle>
                         </div> */}
                         <div className="right">
-                            <p style={{textAlign: 'center'}}>{t('text3')}</p>
+                            <h5 style={{textAlign: 'center', fontWeight: 400, color: '#5c677dff'}}>{t('text3')}</h5>
                         </div>
                     </div>
                 </SectionContent>

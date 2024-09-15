@@ -26,7 +26,8 @@
     width: 100%;
     padding-top: 100%; /* Esto crea una proporción 1:1 (cuadrada) */
     overflow: hidden;
-    background-color: #0466c8;
+    /* background-color: #0466c8; */
+    background-image: linear-gradient(to right, #001233ff, #023e7dff);
 }
 
 .team-member-cv .left .img-container img {

@@ -47,7 +47,25 @@ export const members = {
         new Member('Federico Menza', '/menza-studio/assets/images/menza-foto.png', 'Abogado', 'Abogado – Universidad de Montevideo. Estudiante de Notariado – Universidad de Montevideo. Federico es un joven abogado y socio del estudio, sin perjuicio de que cuenta con varios años de experiencia en materia comercial, propiedad intelectual, societaria, regulatoria, y real estate.', cv_es, 'example@example.com', '+1234567890', 'https://uy.linkedin.com/in/federicomenza'),
     ],
     en: [
-        new Member('Name Lastname', '/menza-studio/assets/images/sequeira-foto.png', 'Position/Profession', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum nibh ut risus luctus pellentesque. Maecenas luctus eu eros at molestie. Etiam pharetra nisi hendrerit dapibus faucibus. Integer faucibus magna risus. Fusce a dolor ac nulla efficitur gravida ut et felis. Nam consectetur eget ligula eu commodo. Nunc blandit a elit id viverra. Nunc eget urna quam.Nunc tempus pulvinar massa a aliquet.',cv_en, 'example@example.com', '+1234567890', 'https://uy.linkedin.com/in/pablo-sequeira-576410307'),
-        new Member('Name Lastname', '/menza-studio/assets/images/menza-foto.png', 'Position/Profession', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum nibh ut risus luctus pellentesque. Maecenas luctus eu eros at molestie. Etiam pharetra nisi hendrerit dapibus faucibus. Integer faucibus magna risus. Fusce a dolor ac nulla efficitur gravida ut et felis. Nam consectetur eget ligula eu commodo. Nunc blandit a elit id viverra. Nunc eget urna quam.Nunc tempus pulvinar massa a aliquet.',cv_en, 'example@example.com', '+1234567890', 'https://uy.linkedin.com/in/federicomenza'),
+        new Member(
+            'Pablo Sequeira',
+            '/menza-studio/assets/images/sequeira-foto.png',
+            'Attorney',
+            'Attorney – University of the Republic. Master’s in Law – University of Montevideo. Pablo is a partner at the firm and has over twenty years of experience in commercial law, real estate, finance, and structured business, having participated in several of the most significant developments and transactions in the market.',
+            cv_es_sequeira,
+            'example@example.com',
+            '+1234567890',
+            'https://uy.linkedin.com/in/pablo-sequeira-576410307'
+        ),
+        new Member(
+            'Federico Menza',
+            '/menza-studio/assets/images/menza-foto.png',
+            'Attorney',
+            'Attorney – University of Montevideo. Notary Student – University of Montevideo. Federico is a young attorney and partner at the firm, although he has several years of experience in commercial law, intellectual property, corporate law, regulatory matters, and real estate.',
+            cv_en,
+            'example@example.com',
+            '+1234567890',
+            'https://uy.linkedin.com/in/federicomenza'
+        ),        
     ]
 }
