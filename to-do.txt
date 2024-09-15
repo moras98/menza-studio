@@ -1,5 +1,3 @@
-Fonts
-Boton contactenos
 Home section sobre nosotros
 imagenes distintas para cada ruta
 Al hacer click llevar a linkedin, menza, pablo, empresa

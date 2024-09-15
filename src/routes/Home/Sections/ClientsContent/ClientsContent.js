@@ -6,25 +6,18 @@ import { useTranslation } from "react-i18next";
 export default function ClientsContent(){
     const {t} = useTranslation('home');
 
-    // const clientsArr = [
-    //     {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
-    //     {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
-    //     {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
-    //     {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
-    //     {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
-    //     {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
-    //     {name: 'cliente', src: '/menza-studio/assets/clients/facebook.jpg'},
-    //     {name: 'cliente', src: '/menza-studio/assets/clients/nativa.jpg'},
-    // ];
-
     const clientsArr = [
         {name: 'argencons', src: '/menza-studio/assets/clients/argencons.png'},
         {name: 'grapheno', src: '/menza-studio/assets/clients/grapheno.png'},
         {name: 'la-tahona', src: '/menza-studio/assets/clients/la-tahona.png'},
+        {name: 'la-tahona-golf', src: '/menza-studio/assets/clients/tahona_golf.jpg'},
         {name: 'plantesia', src: '/menza-studio/assets/clients/plantesia.png'},
+        {name: 'vladimir', src: '/menza-studio/assets/clients/vladimir.png'},
+        {name: 'renmax', src: '/menza-studio/assets/clients/renmax.png'},
         {name: 'argencons', src: '/menza-studio/assets/clients/argencons.png'},
         {name: 'grapheno', src: '/menza-studio/assets/clients/grapheno.png'},
         {name: 'la-tahona', src: '/menza-studio/assets/clients/la-tahona.png'},
+        {name: 'la-tahona-golf', src: '/menza-studio/assets/clients/tahona_golf.jpg'},
         {name: 'plantesia', src: '/menza-studio/assets/clients/plantesia.png'},
         {name: 'vladimir', src: '/menza-studio/assets/clients/vladimir.png'},
         {name: 'renmax', src: '/menza-studio/assets/clients/renmax.png'},
