@@ -1,7 +1,7 @@
 .services-element {
     display: flex;
-    width: 50vh;
-    height: 33vh;
+    max-width: 100%; /* Asegura que el elemento no exceda el ancho del contenedor */
+    min-height: 33vh;
     border-radius: 16px;
     background-color: white;
     flex-direction: column;
@@ -11,11 +11,11 @@
     padding: 4vh;
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-    transition: all ease 0.5s;
-    cursor: default;
-    /* border: 0.5vh solid #0466c8; */
+    transition: transform ease 0.5s; /* Ajusta la transición para el efecto de hover */
+    cursor: pointer; /* Cambia el cursor a pointer para indicar que es interactivo */
 }
 
+/* Efecto hover */
 .services-element:hover {
-    scale: 1.1;
+    transform: scale(1.1); /* Usa transform en lugar de scale */
 }

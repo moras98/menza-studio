@@ -1,7 +1,7 @@
-Recortar imagenes y hacerlas cuadradas
-mejor tarjeta de miembros
-Textos de servicios
+Fonts
+Boton contactenos
+Home section sobre nosotros
+imagenes distintas para cada ruta
 Al hacer click llevar a linkedin, menza, pablo, empresa
-eliminar texto sobre nosotros
 Traducciones
 

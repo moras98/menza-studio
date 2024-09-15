@@ -10,37 +10,37 @@ class Service {
 export const services_es = [
     new Service(
         'Real Estate',
-        'Asesoramos en compra, venta y desarrollo de propiedades, garantizando cumplimiento legal y gestión eficiente de proyectos inmobiliarios.',
+        'Ofrecemos asesoramiento legal integral en la compra, venta y desarrollo de propiedades. Nos encargamos de la estructuración legal de operaciones inmobiliarias, asegurando el cumplimiento de las normativas aplicables y protegiendo los intereses de nuestros clientes. También gestionamos proyectos de urbanización, incluyendo barrios privados y desarrollos inmobiliarios, brindando apoyo en cada etapa del proyecto.',
         'En el ámbito de Real Estate, ofrecemos asesoramiento integral en la compra, venta y desarrollo de propiedades. Nos encargamos de la estructuración legal de operaciones inmobiliarias, asegurando que cada transacción cumpla con todas las regulaciones pertinentes y proteja los intereses de nuestros clientes. Además, gestionamos proyectos inmobiliarios y de desarrollo urbanístico, incluyendo la creación y administración de barrios privados y urbanizaciones, proporcionando una guía experta desde la concepción del proyecto hasta su finalización, garantizando que cada fase del desarrollo inmobiliario se lleve a cabo de manera eficiente y efectiva.',
         '/servicios#1'
     ),
     new Service(
         'Financiamiento',
-        'Ofrecemos soluciones adaptadas a cada cliente, estructuración de préstamos, y desarrollo de instrumentos financieros innovadores.',
+        'Brindamos soluciones legales en financiamiento corporativo, adaptadas a las necesidades de cada cliente. Asesoramos en la estructuración y negociación de préstamos y créditos, tanto con instituciones bancarias como a través del mercado de valores. Nos enfocamos en lograr las mejores condiciones posibles y diseñamos instrumentos financieros para proyectos específicos, acompañando a nuestros clientes en la obtención de los recursos necesarios para su crecimiento.',
         'En el área de financiamiento, nos especializamos en ofrecer soluciones de financiamiento corporativo adaptadas a las necesidades específicas de cada cliente. Asesoramos en la estructuración y negociación de préstamos y créditos, asegurándonos de que las condiciones sean las más favorables posibles. Además, desarrollamos instrumentos financieros innovadores para proyectos específicos y acompañamos a nuestros clientes durante todo el proceso, ayudándolos a buscar y obtener los recursos necesarios para crecer y expandirse.',
         '/servicios#2'
     ),
     new Service(
         'Mercado de Valores',
-        'Guiamos en ofertas públicas y privadas de valores, asegurando cumplimiento normativo y estrategias efectivas para emisiones de títulos y bonos.',
+        'Asesoramos en ofertas públicas y privadas de valores, guiando a las empresas en el cumplimiento de las normativas del mercado de valores y las disposiciones del Banco Central del Uruguay (BCU). También apoyamos en la emisión y colocación de títulos y bonos, ofreciendo estrategias para optimizar el éxito de cada emisión. Además, brindamos asesoramiento en compliance, ayudando a las empresas a cumplir con los requerimientos regulatorios y normativos.',
         'Dentro del mercado de valores, proporcionamos asesoramiento experto en ofertas públicas y privadas de valores, guiando a las empresas a través de los complejos procesos regulatorios y normativos. Aseguramos el cumplimiento de todas las leyes y regulaciones aplicables, ayudando a los clientes a navegar el intrincado paisaje del mercado de valores. También asesoramos en la emisión y colocación de títulos y bonos, proporcionando estrategias efectivas para maximizar el éxito de cada emisión.',
         '/servicios#3'
     ),
     new Service(
         'Fideicomisos',
-        'Especializados en creación y administración de fideicomisos financieros, inmobiliarios y de garantía, ofreciendo soluciones innovadoras para financiamiento y desarrollo.',
+        'Contamos con amplia experiencia en la creación y administración de fideicomisos. Ofrecemos asesoramiento en la estructuración de fideicomisos financieros, de administración, inmobiliarios y de garantía, asegurando su uso eficiente para cumplir con los objetivos de nuestros clientes. También asesoramos en el uso de fideicomisos para financiamiento y desarrollo inmobiliario, ofreciendo soluciones que facilitan la obtención de recursos y el desarrollo de proyectos complejos.',
         'Somos reconocidos por nuestra amplia experiencia en la creación y administración de fideicomisos. Nuestro equipo tiene una gran trayectoria en todo tipo de fideicomisos, ofreciendo servicios para la estructuración de fideicomisos financieros, de administración, inmobiliarios y de garantía, asegurando que estos instrumentos financieros se utilicen de manera eficiente para cumplir con los objetivos de nuestros clientes. Además, asesoramos en la utilización de fideicomisos para financiamiento y desarrollo inmobiliario, proporcionando soluciones innovadoras que facilitan la obtención de recursos y la realización de proyectos complejos.',
         '/servicios#4'
     ),
     new Service(
         'M&A (Fusiones y Adquisiciones)',
-        'Brindamos asesoría en fusiones y adquisiciones, redacción de contratos, reestructuración empresarial y gobierno corporativo para optimizar procesos y proteger intereses.',
+        'Ofrecemos asesoramiento en fusiones y adquisiciones, ayudando en la redacción y negociación de contratos que protegen los intereses de nuestros clientes y aseguran el cumplimiento de las obligaciones legales. Guiamos a las empresas en cada etapa de la transacción y también proporcionamos consultoría en reestructuración empresarial y gobierno corporativo para mejorar su eficiencia.',
         'Contamos con una sólida trayectoria en M&A, brindando asesoramiento en la redacción y negociación de contratos comerciales que protegen los intereses de nuestros clientes y aseguran el cumplimiento de todas las obligaciones legales. Ofrecemos asistencia experta en procesos de fusiones y adquisiciones, guiando a las empresas a través de cada etapa de la transacción para asegurar su éxito. Además, proporcionamos consultoría en reestructuración empresarial y gobierno corporativo, ayudando a las organizaciones a optimizar sus estructuras y procesos internos para mejorar su eficiencia y competitividad.',
         '/servicios#5'
     ),
     new Service(
         'Sociedades',
-        'Asesoramos en constitución y gestión de sociedades, redacción de acuerdos y resolución de conflictos para asegurar el cumplimiento legal y eficiencia empresarial.',
+        'Brindamos asesoramiento en la constitución y gestión de sociedades. Ayudamos a crear estructuras corporativas adaptadas a las necesidades de cada cliente, garantizando el cumplimiento legal. También ofrecemos soporte en la redacción y negociación de acuerdos entre socios, así como en la resolución de conflictos societarios, asegurando que las empresas operen de manera eficiente.',
         'En el área societaria, ofrecemos asesoramiento integral en la constitución y gestión de sociedades. Ayudamos en la creación de estructuras corporativas adecuadas a las necesidades de cada cliente, asegurando el cumplimiento de todas las normativas legales vigentes. Además, brindamos soporte en la redacción y negociación de acuerdos entre socios, así como en la resolución de conflictos societarios. Nuestro objetivo es proporcionar soluciones efectivas que permitan a las empresas operar de manera eficiente y proteger los intereses de sus accionistas.',
         '/servicios#6'
     ),

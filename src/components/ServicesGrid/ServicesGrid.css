@@ -1,16 +1,13 @@
 .services-grid {
     margin-top: 5vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50vh, 1fr)); /* Ajusta automáticamente las columnas */
     gap: 5vh;
-    align-items: center;
-    justify-content: space-between;
+    width: 100%;
 }
 
-@media (max-width: 850px){
-   .services-grid {
-    justify-content: center;
-   } 
+@media (max-width: 850px) {
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Ajusta a una columna en pantallas pequeñas */
+    }
 }
