@@ -8,7 +8,7 @@
     height: auto;
     border-radius: 16px;
     overflow: hidden; /* Ensures that the image does not overflow the container */
-    background-color: rgba(211, 211, 211, 0.281);
+    background-color: rgb(255, 255, 255);
     max-width: 25vw;
     min-height: 40vh;
 }
@@ -44,3 +44,13 @@
     font-weight: bold;
 }
 
+@media (max-width: 850px){
+    .team-member {
+        min-width: 80vw;
+        height: auto;
+    }
+
+    .team-member .info {
+        opacity: 1;
+    }
+}
